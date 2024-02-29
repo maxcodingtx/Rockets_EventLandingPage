@@ -1,0 +1,105 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Cousine", monospace;
+}
+
+img {max-width: 100%;}
+
+/* 
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: normal; 
+*/
+
+
+
+:root {
+    --rockets-clr: #cf083f
+}
+
+
+.section1__container{
+    padding: 3rem;
+
+    background: url(images/section1/section1_background.jpg) center center no-repeat fixed;
+    background-size: cover;
+    background-color: var(--rockets-clr);
+
+}
+
+.section1__countdown {
+    border: 4px double var(--rockets-clr);
+    border-radius: 0;
+    padding: 1rem;
+
+    background-color: black;
+
+
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: white 1px 0 10px;
+}
+
+.section1__logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1__logo {
+    width: 25%;
+}
+
+.section1__info__heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.section1__info { 
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.section1__link {
+    border: 2px solid black;
+    border-radius: 999px;
+    padding: .75rem;
+
+    background-color: var(--rockets-clr);
+
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* 
+    media query for responsive background image
+    on smaller screen sizes
+*/
+
+@media (max-width: 800px) {
+    .section1__container {
+        background: url(images/section1/section1_background-800w.jpg) center center no-repeat fixed;
+        background-size: cover;
+        background-color: var(--rockets-clr);
+
+    }
+    
+}
+
+
+/* end of section 1 styling */
+
