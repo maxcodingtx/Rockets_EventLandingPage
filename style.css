@@ -13,16 +13,12 @@ body {
 
 img {max-width: 100%;}
 
-/* 
-    font-family: "Cousine", monospace;
-    font-weight: 400;
-    font-style: normal; 
-*/
-
-
-
 :root {
     --rockets-clr: #cf083f
+}
+
+:root {
+    --wizards-clr: #002b5c
 }
 
 
@@ -72,7 +68,6 @@ img {max-width: 100%;}
     font-weight: 600;
 }
 
-
 .section1__link {
     border: 2px solid black;
     border-radius: 999px;
@@ -95,11 +90,63 @@ img {max-width: 100%;}
         background: url(images/section1/section1_background-800w.jpg) center center no-repeat fixed;
         background-size: cover;
         background-color: var(--rockets-clr);
-
     }
-    
 }
 
+/* end of section 1 styling, section 2 below */
 
-/* end of section 1 styling */
 
+.section2__container {
+    padding: 3rem;
+
+    background: url(images/section2/section2_background.jpg) center center no-repeat fixed;
+    background-size: cover;
+    background-color: var(--rockets-clr);
+}
+
+.section2__header{
+    text-align: center;
+    color: white;
+}
+
+.card {
+    padding: 1rem;
+    border: 4px double white;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+
+.card1 {
+    color: white;
+}
+
+.card2 {
+    color: white;
+}
+
+.card__header{
+    text-align: center;
+}
+
+.card__statLeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+
+    text-align: center;
+}
+
+.statLeader__image__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.statleader__stat {
+    margin: auto auto;
+    width: 40%;
+
+    font-size: 1.75rem;
+}
