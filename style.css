@@ -151,6 +151,10 @@ img {max-width: 100%;}
     font-size: 1.5rem;
 }
 
+/* 
+    media query for responsive background image
+    on smaller screen sizes
+*/
 
 @media (max-width: 800px) {
     .section2__container {
@@ -160,4 +164,40 @@ img {max-width: 100%;}
         background-color: var(--rockets-clr);
     }
     
+}
+
+/* end of section 2 styling, section 3 below */
+
+
+.section3__container {
+    padding: 3rem;
+
+    background: url(images/section3/section3_background.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section3__notes1 {
+    color: var(--rockets-clr);
+}
+
+.section3__notes2 {
+    color: var(--wizards-clr);
+}
+
+
+/* 
+    media query for responsive background image
+    on smaller screen sizes
+*/
+
+@media (max-width: 800px) {
+
+    .section3__container {
+        background: url(images/section3/section3_background800w.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
 }
