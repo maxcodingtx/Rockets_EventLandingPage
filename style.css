@@ -148,5 +148,16 @@ img {max-width: 100%;}
     margin: auto auto;
     width: 40%;
 
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 800px) {
+    .section2__container {
+    
+        background: url(images/section2/section2_background800w.jpg) center center no-repeat fixed;
+        background-size: cover;
+        background-color: var(--rockets-clr);
+    }
+    
 }
