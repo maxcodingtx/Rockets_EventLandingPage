@@ -56,15 +56,15 @@ img {max-width: 100%;}
     width: 25%;
 }
 
-.section1__info__heading {
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
 .section1__info { 
     text-align: center;
     color: white;
     font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section1__info__heading {
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -116,11 +116,7 @@ img {max-width: 100%;}
     margin-bottom: 10%;
 }
 
-.card1 {
-    color: white;
-}
-
-.card2 {
+.card1, .card2 {
     color: white;
 }
 
